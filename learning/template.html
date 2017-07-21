@@ -9,20 +9,23 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel = "stylesheet" type = "text/css" href="./styling.css" />
-  </head>
+    <link rel = "stylesheet" type = "text/css" href="./styling.css" /> <!-- this sheet trumps above sheet -->
+      <link rel = "stylesheet" type = "text/css" href="./styling.css" /> <!-- this sheet trumps above sheet -->
+      <script src = "functions.js"></script>
+
+    </head>
   <body>
     <h1>Hello everyone, hope you like my awesome site!</h1>
     <div> although it is currently pretty worthless, it is teaching me so </div>
 
-
+ 
     <form name="screen">
         <input type="text" class="screen text-right" name="result" readonly>
     </form>
     
 
     <div></div>
-    <button id="1" type="button" class="btn btn-info"  onclick="id2screen(5)">1</button>
+    <button id="1" type="button" class="btn btn-info" >1</button>
     <button id="2" type="button" class="btn btn-info" >2</button>
     <button id="3" type="button" class="btn btn-info" >3</button>
     <div></div>
@@ -30,7 +33,9 @@
     <button id="5" type="button" class="btn btn-info" >5</button>
     <button id="6" type="button" class="btn btn-info" >6</button>
     <div></div>
-    <button id="7" type="button" class="btn btn-info" >NEXT</button>
+    <button id="7" type="button" class="btn btn-warning" onclick="changeColor('red')">RED</button>
+    <button id="8" type="button" class="btn btn-warning" onclick="changeColor('blue')">BLUE</button>
+
     <div></div>
 
 

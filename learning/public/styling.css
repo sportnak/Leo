@@ -9,16 +9,7 @@ div {
     text-align:center;
 }*/
 
-button#1.btn.btn-info:hover {
-    color:yellow;
-    background-color:yellow;
-    border-color:yellow;
-}
 
-#1.btn.btn-info {
-    color:black;
-    background-color: black;
-}
 
 .btn.btn-info {
     color:black;
@@ -37,4 +28,9 @@ button#1.btn.btn-info:hover {
     padding-right: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
+}
+
+button#1.btn.btn-info {
+    color:black;
+    background-color: black;
 }
