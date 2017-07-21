@@ -22,6 +22,11 @@ app.listen(3000, function () {
   console.log('Example app listening on port 3000!')
 })
 
+//log to screen
+function id2screen(num) {
+    document.screen.result="5";
+}
+
 
 // // special type of function.. arrow function not sure
 // const server = http.createServer((request,res) => { 
