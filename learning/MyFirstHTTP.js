@@ -7,7 +7,7 @@ const app = express()
 app.use(express.static('public'))
 
 app.get('/', function (req, res) {
-    fs.readFile('htmlWithNano.html', (err, html) =>{
+    fs.readFile('template.html', (err, html) =>{
         if(err){
             throw err;
         }

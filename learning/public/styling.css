@@ -1,0 +1,39 @@
+/*div.row1 {
+    color: blue;
+    background-color: yellow;
+}
+
+div {
+    column-count:3;
+    grid-column-end: span;
+    text-align:center;
+}*/
+
+button#1.btn.btn-info:hover {
+    color:yellow;
+    background-color:yellow;
+    border-color:yellow;
+}
+
+#1.btn.btn-info {
+    color:black;
+    background-color: black;
+}
+
+.btn.btn-info {
+    color:black;
+    background-color:#aad;
+    border-color:#aad;
+}
+
+.btn.btn-info:hover {
+    background-color:#aaf;
+    border-color:#aaa;
+}
+
+.btn {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
