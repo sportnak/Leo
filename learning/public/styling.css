@@ -30,7 +30,28 @@ div {
     padding-left: 1rem;
 }
 
-button#1.btn.btn-info {
-    color:black;
-    background-color: black;
+.btn.btn-info.style1 {
+    background-color: rgb(208, 158, 69);
+    color: #3c3cb5
+}
+
+.btn.btn-info.style1:hover {
+    background-color:#efc570;
+    border-color:#3c3cb5;
+}
+
+.btn.btn-info.style2 {
+    background-color: #3c3cb5;
+    color:rgb(208, 158, 69);
+}
+
+.btn.btn-info.style2:hover {
+    background-color:#6b65f2;
+    border-color:rgb(208, 158, 69);
+}
+
+.mainBody {
+    background-color: #acacdf;
+    display:inline-block;
+    text-align: center;
 }
