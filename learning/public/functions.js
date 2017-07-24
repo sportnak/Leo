@@ -12,6 +12,39 @@ function changeColor(newStyle) {
     }
 }
 
-function id2screen(id){
-    document.getElementsByName('result').value='12345';
+function text(id){
+    // remove all boxes
+    var parent = document.getElementById("insertionDiv");
+    while(parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }        
+    // create new ones
+    for (var i = 0; i < id; i++) {
+        var div = document.createElement("div");
+        var node = document.createTextNode("text");
+        div.appendChild(node);
+
+        var element = document.getElementById("insertionDiv");
+        element.appendChild(div);
+    }
 }
+
+function boxes(id){
+    // remove all boxes
+    var parent = document.getElementById("insertionDiv");
+    while(parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }        
+    // create new ones
+    for (var i = 0; i < id; i++) {
+        var div = document.createElement("div");
+        var attrib = document.createAttribute("class")
+        attrib.value = "box";
+        div.setAttributeNode(attrib);
+        //div.appendChild(div);
+
+        var element = document.getElementById("insertionDiv");
+        element.appendChild(div);
+    }
+}
+
